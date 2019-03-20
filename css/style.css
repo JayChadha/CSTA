@@ -53,6 +53,7 @@ ul {
 	margin: 0;
 	padding: 0;
 }
+
 .left-logo{
 	width:16em;
 	margin-left: 3em;
@@ -773,7 +774,7 @@ margin-bottom: auto;
 	height: 100%;
 	right: -15px;
 	top: 0;
-	background: #6a23b5;
+	background: #0e5df8;
 	z-index: -1;
 }
 
@@ -872,7 +873,7 @@ margin-bottom: auto;
 .page-top-section {
 	position: relative;
 	height: 405px;
-	background: #6a23b5;
+	background-image: url("../Images/teacher - Copy.jpg");
 }
 
 .page-top-section .container {
