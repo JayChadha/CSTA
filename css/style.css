@@ -54,7 +54,8 @@ ul {
 	padding: 0;
 }
 .left-logo{
-	width:18em;
+	width:16em;
+	margin-left: 3em;
 margin-top: auto;
 margin-bottom: auto;
 }
