@@ -887,7 +887,7 @@ margin-bottom: auto;
 }
 
 .page-top-section .page-info h2 {
-	color: #fff;
+	color: #222;
 	font-weight: 400;
 	margin-bottom: 15px;
 	float: left;
@@ -897,7 +897,7 @@ margin-bottom: auto;
 .page-top-section .page-info .page-links span {
 	font-size: 18px;
 	font-family: "Oswald", sans-serif;
-	color: #fff;
+	color: #222;
 	margin-right: 12px;
 	padding-right: 12px;
 	font-weight: 400;
