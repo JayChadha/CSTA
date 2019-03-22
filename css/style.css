@@ -127,10 +127,10 @@ margin-bottom: auto;
 }
 
 .section-title h2 span {
-	background: #2be6ab;
+	background: #0e5df8;
 	padding: 0 3px 5px;
 	display: inline-block;
-	color: #0b1033;
+	color: #fff;
 }
 
 .section-title:after {
