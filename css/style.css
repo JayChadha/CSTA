@@ -903,6 +903,12 @@ margin-bottom: auto;
 	font-weight: 400;
 	position: relative;
 }
+.img-page{
+	display: block;
+
+	margin-right: auto;
+	margin-left: auto;
+}
 
 .page-top-section .page-info .page-links a:after,
 .page-top-section .page-info .page-links span:after {
