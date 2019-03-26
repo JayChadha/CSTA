@@ -46,7 +46,12 @@
 *Added pie charts*
 *fixed title*
 *changed title to uppercase*
-#Customer Requests: #customer changes-
+#Customer Requests:
+*Clean up pie charts*
+*update the images*
+*update email*
+*fix container blue speck*
+#customer changes-
 *link to csta pd*
 *link to google calendar*
 *remove extra stuff*
