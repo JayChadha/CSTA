@@ -127,10 +127,10 @@ margin-bottom: auto;
 }
 
 .section-title h2 span {
-	background: #0e5df8;
+	background: #fff;
 	padding: 0 3px 5px;
 	display: inline-block;
-	color: #fff;
+	color: black;
 }
 
 .section-title:after {
@@ -409,7 +409,7 @@ margin-bottom: auto;
 --------------------------*/
 .about-section,
 .team-section {
-	background: #a0a0a0;
+	background: #1c3f60;
 	position: relative;
 	z-index: 2;
 }
@@ -851,14 +851,16 @@ margin-bottom: auto;
 
 /*------------------------
 	Footer section
+	1c3f60
+
 --------------------------*/
 .footer-section {
-	background: #220c3b;
+	background: #11293f;
 	text-align: center;
 }
 
 .footer-section h2 {
-	color: #6a23b5;
+	color: #fff;
 	font-size: 14px;
 	padding: 18px 0;
 }
