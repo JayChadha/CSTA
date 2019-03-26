@@ -1,4 +1,12 @@
+#Jesse and Jay
 #https://jaychadha.github.io/CSTA/
+#Status:
+*links are now all functional
+*sign up page updated*
+*removed extra template code*
+*Replaced our mission with CSTA Northern Virginia*
+*pie charts need cleaning up*
+*add more content for customer*
 #Change Log:
 *updated html links*
 *added logo and link to all pages*
@@ -46,8 +54,3 @@
 *Link curriculum resources to CSTA*
 *Remove Academies of Loudoun from contact Page*
 *Sign up should go to CSTA sign up*
-#Status:
-*links are now all functional
-*sign up page updated*
-*removed extra template code*
-*Replaced our mission with CSTA Northern Virginia*
