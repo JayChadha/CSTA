@@ -132,7 +132,7 @@ margin-bottom: auto;
 	font-weight: 400;
 }
 .section-title-black h2 {
-	text-transform: uppercase;
+	text-transform: lowercase;
 	color: black;
 	font-weight: 400;
 }
