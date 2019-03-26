@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<title>NOVA CSTA</title>
 	<meta charset="UTF-8">
@@ -7,26 +8,84 @@
 	<meta name="keywords" content="lab, onepage, creative, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Favicon -->
-	<link href="https://www.csteachers.org/resource/resmgr/images/CSTA-Favicon.ico" rel="shortcut icon"/>
+	<link href="https://www.csteachers.org/resource/resmgr/images/CSTA-Favicon.ico" rel="shortcut icon" />
 
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700|Roboto:300,400,700" rel="stylesheet">
 
 	<!-- Stylesheets -->
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="css/flaticon.css"/>
-	<link rel="stylesheet" href="css/magnific-popup.css"/>
-	<link rel="stylesheet" href="css/owl.carousel.css"/>
-	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/flaticon.css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" />
+	<link rel="stylesheet" href="css/owl.carousel.css" />
+	<link rel="stylesheet" href="css/style.css" />
 
 
 	<!--[if lt IE 9]>
 	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script type="text/javascript">
+		google.charts.load("current", {
+			packages: ["corechart"]
+		});
+		google.charts.setOnLoadCallback(drawChart);
 
+		function drawChart() {
+			var data = google.visualization.arrayToDataTable([
+				['CS', ''],
+				['Learn CS', 90],
+				['Do not learn CS', 10],
+
+			]);
+
+			var options = {
+				title: 'Parents who want their kids to learn computer science',
+				pieHole: 0.4,
+				titleTextStyle: {
+					fontSize: 26,
+					fontName:"Oswald",
+					bold: false,
+				},
+			};
+
+			var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+			chart.draw(data, options);
+		}
+	</script>
+	<script type="text/javascript">
+		google.charts.load("current", {
+			packages: ["corechart"]
+		});
+		google.charts.setOnLoadCallback(drawChart);
+
+		function drawChart() {
+			var data = google.visualization.arrayToDataTable([
+				['CS', ''],
+				['Teach CS', 35],
+				['Do not teach CS', 65],
+
+			]);
+
+			var options = {
+				title: 'Schools that teach computer science',
+				pieHole: 0.4,
+
+			titleTextStyle: {
+				fontSize: 26,
+				fontName:"Oswald",
+				bold: false,
+			},
+			};
+
+			var chart = new google.visualization.PieChart(document.getElementById('donutchart2'));
+			chart.draw(data, options);
+		}
+	</script>
 </head>
+
 <body>
 	<!-- Page Preloder -->
 	<!---
@@ -68,7 +127,7 @@
 		</div>
 		<!-- slider -->
 
-			<div class="item  hero-item" data-bg="Images/teacher.jpg"></div>
+		<div class="item  hero-item" data-bg="Images/teacher.jpg"></div>
 	</div>
 	<!-- Intro Section -->
 
@@ -81,37 +140,40 @@
 			<div class="container">
 				<div class="row">
 					<!-- single card -->
-					<a href="https://www.csteachers.org/page/Learning"><div class="col-md-4 col-sm-6">
-						<div class="lab-card">
-							<div class="icon">
-								<i class="flaticon-team"></i>
+					<a href="https://www.csteachers.org/page/Learning">
+						<div class="col-md-4 col-sm-6">
+							<div class="lab-card">
+								<div class="icon">
+									<i class="flaticon-team"></i>
+								</div>
+								<h2>Great Professional Development</h2>
+								<p>Find information regarding continuing CSTA education platforms</p>
 							</div>
-							<h2>Great Professional Development</h2>
-							<p>Find information regarding continuing CSTA education platforms</p>
 						</div>
-					</div>
-				</a>
-					<!-- single card -->
-					<a href="events.html"><div class="col-md-4 col-sm-6">
-						<div class="lab-card">
-							<div class="icon">
-								<i class="flaticon-calendar"></i>
-							</div>
-							<h2>Calendar of All Local CS Events</h2>
-							<p>Discover what CS events are happening near you</p>
-						</div>
-					</div>
 					</a>
 					<!-- single card -->
-					<a href="https://www.csteachers.org/page/Resources"><div class="col-md-4 col-sm-12">
-						<div class="lab-card">
-							<div class="icon">
-								<i class="flaticon-teacher"></i>
+					<a href="events.html">
+						<div class="col-md-4 col-sm-6">
+							<div class="lab-card">
+								<div class="icon">
+									<i class="flaticon-calendar"></i>
+								</div>
+								<h2>Calendar of All Local CS Events</h2>
+								<p>Discover what CS events are happening near you</p>
 							</div>
-							<h2>Excellent Curriculum Resources</h2>
-							<p>Members receive access to a collection of curriculum resources</p>
 						</div>
-					</div>
+					</a>
+					<!-- single card -->
+					<a href="https://www.csteachers.org/page/Resources">
+						<div class="col-md-4 col-sm-6">
+							<div class="lab-card">
+								<div class="icon">
+									<i class="flaticon-teacher"></i>
+								</div>
+								<h2>Excellent Curriculum Resources</h2>
+								<p>Members receive access to a collection of curriculum resources</p>
+							</div>
+						</div>
 					</a>
 				</div>
 			</div>
@@ -121,19 +183,37 @@
 
 		<!-- About contant -->
 
-				<div class="section-title">
-					<h2>Discover the power of <span>computer science</span> in the classroom</h2>
-					<br>
+		<div class="section-title">
+			<h2>Discover the power of <span>computer science</span> in the classroom</h2>
+		</div>
+		<div class="text-center mt20">
+			<img src="https://static1.squarespace.com/static/5b3bd7c985ede1152fcbfdba/t/5b3fbc8703ce64ae18f692f1/1530903705126/" alt="">
+		</div>
+	</div>
+
+	<div class="data-section">
+		<div class="container">
+			<div class="row">
 
 
-						<img src="https://static1.squarespace.com/static/5b3bd7c985ede1152fcbfdba/t/5b3fbc8703ce64ae18f692f1/1530903705126/" alt="">
+				<div class="section-title-black">
+					<h2>Statisitics on <span>Computer science</span> in k-12 education</h2>
 				</div>
-				<div class="text-center mt60">
+				<div class="col-md-6">
+					<div id="donutchart" style="width: 550px; height: 500px;"></div>
+				</div>
+				<div class="col-md-6">
+					<div id="donutchart2" style="width: 550px; height: 500px;"></div>
+				</div>
+				<div class="text-center">
 					<a href="https://www.csteachers.org/general/register_member_type.asp?" class="site-btn sign-up-btn">Sign Up</a>
 				</div>
 				<br>
 				<br>
-</div>
+				<br>
+			</div>
+		</div>
+	</div>
 	<!-- Footer section -->
 	<footer class="footer-section">
 		<h2>2019 All rights reserved. Created by Jay and Jesse. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></h2>
@@ -148,4 +228,5 @@
 	<script src="js/circle-progress.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
+
 </html>
