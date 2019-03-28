@@ -151,16 +151,7 @@ margin-bottom: auto;
 	color: black;
 }
 
-.section-title:after {
-	content: "";
-	position: absolute;
-	left: 50%;
-	top: 0;
-	width: 5px;
-	height: 30px;
-	margin-left: -2.5px;
-	background: #0e5df8;
-}
+
 
 .section-title.left {
 	text-align: left;
@@ -899,7 +890,7 @@ margin-bottom: auto;
 .page-top-section {
 	position: relative;
 	height: 405px;
-	background-image: url("../Images/teacher - Copy.jpg");
+	background-image: url("../Images/teacher_crop.png");
 }
 
 .page-top-section .container {
